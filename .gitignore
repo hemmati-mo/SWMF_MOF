@@ -1,0 +1,33 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+
+.env
+.venv/
+venv/
+env/
+
+# Trained artifacts and generated outputs
+Models/
+models/
+predictions/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.pkl
+training_args.bin
+
+# Local notebook workspaces and rendered scratch outputs
+Notebooks/
+.ipynb_checkpoints/
+
+# Non-public source-data exports
+data/*.valid.csv
+data/raw/
+data/external/
+
+# Large local interpretation outputs
+interpretability/chemprop_shap/
+interpretability/*.jsonl
